@@ -1,0 +1,33 @@
+{
+  "name": "strapi-provider-upload-firebase-storage",
+  "version": "0.0.1",
+  "description": "firebase provider for strapi upload",
+  "homepage": "http://strapi.io",
+  "keywords": [
+    "upload",
+    "strapi"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "email": "duytan1008@gmail.com",
+    "name": "tan",
+    "url": "https://codemetrics.com"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "dependencies": {
+    "firebase": "^7.9.3"
+  }
+}
